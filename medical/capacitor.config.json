@@ -1,0 +1,6 @@
+{
+  "appId": "com.anatomia.cards",
+  "appName": "Anatomia Cards",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
