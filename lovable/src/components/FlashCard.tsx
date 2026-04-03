@@ -51,13 +51,15 @@ const FlashCard = ({ card, onNext }: FlashCardProps) => {
                 </span>
               </div>
             ) : (
-              <img
-                src={card.image}
-                alt="Imagen anatómica"
-                className="h-full w-full object-cover"
-                draggable={false}
-                onError={() => setImgError(true)}
-              />
+              <div className="flex items-center justify-center bg-muted/35 p-3">
+                <img
+                  src={card.image}
+                  alt="Imagen anatómica"
+                  className="h-full w-full object-contain object-center"
+                  draggable={false}
+                  onError={() => setImgError(true)}
+                />
+              </div>
             )}
             <span className="animate-hint-pulse py-3 text-center text-sm font-bold text-muted-foreground">
               Tap para revelar

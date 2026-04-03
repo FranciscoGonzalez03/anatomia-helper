@@ -27,4 +27,11 @@ export const ANATOMY_CARDS: AnatomyCard[] = [
       "Relacion entre acetabulo y cabeza del femur. Es estable para carga y locomocion, con movilidad en varios planos.",
     image: "assets/images/meme3.jpg",
   },
+  {
+    id: 4,
+    title: "Sutura Lamboidea",
+    description:
+      "Es un complejo articular que une a ambos huesos parietales al hueso occipital. Es una articulacion de tipo sinartrosis, fibro cartilaginosa sutura ubicada en el craneo a posterior.",
+    image: "assets/images/1. Sutura Lamboidea.jpg",
+  },
 ];
