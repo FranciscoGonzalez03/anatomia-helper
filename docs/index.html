@@ -1,48 +1,27 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#0f172a" />
-    <title>Anatomia Cards</title>
-    <link rel="icon" type="image/svg+xml" href="assets/placeholder-anatomia.svg" />
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: Set the document title to the name of your application -->
+    <title>Lovable App</title>
+    <meta name="description" content="Lovable Generated Project" />
+    <meta name="author" content="Lovable" />
+
+    <!-- TODO: Update og:title to match your application name -->
+    <meta property="og:title" content="Lovable App" />
+    <meta property="og:description" content="Lovable Generated Project" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Lovable" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <script type="module" crossorigin src="./assets/index-DlmVG4O5.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DJtttBG4.css">
   </head>
+
   <body>
-    <div class="bg-shape bg-shape-1" aria-hidden="true"></div>
-    <div class="bg-shape bg-shape-2" aria-hidden="true"></div>
-
-    <main class="app-shell">
-      <header class="app-header">
-        <p class="app-kicker">Estudio offline</p>
-        <h1>Anatomia Cards</h1>
-        <p class="app-subtitle" id="progressLabel">Card 1 de 1</p>
-      </header>
-
-      <section class="card-stage" aria-live="polite">
-        <button class="flip-card" id="studyCard" type="button" aria-label="Card de estudio">
-          <div class="flip-card-inner" id="cardInner">
-            <div class="card-face card-front">
-              <img id="cardImage" alt="Imagen anatomica" draggable="false" />
-              <span class="image-status" id="imageStatus" hidden></span>
-              <span class="face-hint">Tap para revelar</span>
-            </div>
-            <div class="card-face card-back">
-              <span class="tag">Respuesta</span>
-              <h2 id="cardTitle"></h2>
-              <p id="cardDescription"></p>
-              <span class="face-hint">Tap para siguiente</span>
-            </div>
-          </div>
-        </button>
-      </section>
-
-      <footer class="app-footer">
-        <button class="ghost-btn" id="reshuffleBtn" type="button">Mezclar y reiniciar</button>
-      </footer>
-    </main>
-
-    <script src="data/cards.js"></script>
-    <script src="app.js"></script>
+    <div id="root"></div>
   </body>
 </html>
