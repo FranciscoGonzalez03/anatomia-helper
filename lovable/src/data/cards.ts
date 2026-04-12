@@ -8,30 +8,37 @@ export interface AnatomyCard {
 export const ANATOMY_CARDS: AnatomyCard[] = [
   {
     id: 1,
-    title: "Articulacion de la rodilla",
+    title: "Sutura Lamboidea / Parietooccipital",
     description:
-      "Une femur, tibia y rotula. Permite flexion y extension, y tiene rotacion limitada cuando esta flexionada.",
-    image: "assets/images/meme1.jpg",
+      "Es un complejo articular que une a ambos huesos parietales al hueso occipital. Es una articulacion de tipo sinartrosis, fibrosa sutura dentada, ubicada en la region posterior del craneo.",
+    image: "assets/images/1. Sutura Lamboidea.jpg",
   },
   {
     id: 2,
-    title: "Articulacion del hombro",
+    title: "Sutura Coronal / Frontonparietal",
     description:
-      "La glenohumeral ofrece gran rango de movimiento. Su estabilidad depende de ligamentos, capsula y manguito rotador.",
-    image: "assets/images/meme2.jpg",
+      "Es un complejo articular que integra el hueso frontal con ambos huesos parietales. Es una articulacion de tipo sinartrosis, fibrosa sutura dentada, ubicada en el plano coronal/frontal en la region del vertex.",
+    image: "assets/images/2. Sutura coronal.jpg",
   },
   {
     id: 3,
-    title: "Articulacion de la cadera",
+    title: "Sutura Sagital / Interparietal",
     description:
-      "Relacion entre acetabulo y cabeza del femur. Es estable para carga y locomocion, con movilidad en varios planos.",
-    image: "assets/images/meme3.jpg",
+      "Es una articulacion que une a ambos huesos parietales, es de clasificacion sinartrosis, de tipo fibrosa sutura, ubicada en el vertex sobre el plano sagital medial.",
+    image: "assets/images/3. Sutura Sagital.jpg",
   },
   {
     id: 4,
-    title: "Sutura Lamboidea",
+    title: "Articulacion Acromioclavicular",
     description:
-      "Es un complejo articular que une a ambos huesos parietales al hueso occipital. Es una articulacion de tipo sinartrosis, fibro cartilaginosa sutura ubicada en el craneo a posterior.",
-    image: "assets/images/1. Sutura Lamboidea.jpg",
+      "Es una articulacion simple que une a la clavicula y el acromion de la escapula. Se clasifica como una diartrosis, sinovial plana. Permite realizar movimientos de desplazamiento.",
+    image: "assets/images/4. Acromioclavicular.jpg",
+  },
+  {
+    id: 5,
+    title: "Articulacion Esternoclavicular",
+    description:
+      "Es una articulacion simple que une el miembro superior al tronco a traves de la clavicula y el esternon, con pequena superficie articular del 1er cartilago costal. Es de tipo sinovial y subtipo selar aunque sus movimientos son limitados.",
+    image: "assets/images/5. Esternoclavicular.jpg",
   },
 ];
